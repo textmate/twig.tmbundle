@@ -62,18 +62,50 @@
 				<dict>
 					<key>begin</key>
 					<string>'</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.begin.twig</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>'</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.end.twig</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>string.other.twig.template.tag</string>
+					<string>string.quoted.single.twig.template.tag</string>
 				</dict>
 				<dict>
 					<key>begin</key>
 					<string>"</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.begin.twig</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>"</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.end.twig</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>string.other.twig.template.tag</string>
+					<string>string.quoted.double.twig.template.tag</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -115,18 +147,50 @@
 				<dict>
 					<key>begin</key>
 					<string>'</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.begin.twig</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>'</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.end.twig</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>string.other.twig.template.tag</string>
+					<string>string.quoted.single.twig.template.tag</string>
 				</dict>
 				<dict>
 					<key>begin</key>
 					<string>"</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.begin.twig</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>"</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.string.end.twig</string>
+						</dict>
+					</dict>
 					<key>name</key>
-					<string>string.other.twig.template.tag</string>
+					<string>string.quoted.double.twig.template.tag</string>
 				</dict>
 				<dict>
 					<key>match</key>

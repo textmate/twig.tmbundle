@@ -15,7 +15,6 @@ Suggestions:
 
 #### Language Grammar
 
-* The scope suffixes of twig.template.tag and twig.template aren't needed as you can use scopes to determine where a scope is located. .twig alone should suffice.
 * entity.other.twig.tagbraces should instead be punctuation.definition.tag.(begin|end) to match HTML tags.
 * The scope for ${} tags should likely be meta.tag.template.expression as they contain more than just the variable. The variable name could still have the variable scope.
 * The spaces inside the folding rules should be replaced with \s*

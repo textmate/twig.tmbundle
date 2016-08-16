@@ -44,7 +44,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.twig.tagbraces</string>
+					<string>entity.other.twig</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -81,7 +81,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.twig.template.tag</string>
+					<string>string.quoted.single.twig</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -105,13 +105,13 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.twig.template.tag</string>
+					<string>string.quoted.double.twig</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>[a-zA-Z_]+</string>
 					<key>name</key>
-					<string>string.unquoted.twig.template.tag</string>
+					<string>string.unquoted.twig</string>
 				</dict>
 			</array>
 		</dict>
@@ -144,13 +144,13 @@
 					<key>match</key>
 					<string>\b(block|endblock|extends|for|endfor|if|include|else|elseif|endif|trigger|url)\b</string>
 					<key>name</key>
-					<string>keyword.control.twig.template</string>
+					<string>keyword.control.twig</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(and|or|not|in|by|as)\b</string>
 					<key>name</key>
-					<string>keyword.operator.twig.template</string>
+					<string>keyword.operator.twig</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -174,7 +174,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.twig.template.tag</string>
+					<string>string.quoted.single.twig</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -198,13 +198,13 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.twig.template.tag</string>
+					<string>string.quoted.double.twig</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>[a-zA-Z_]+</string>
 					<key>name</key>
-					<string>string.unquoted.twig.template.tag</string>
+					<string>string.unquoted.twig</string>
 				</dict>
 			</array>
 		</dict>

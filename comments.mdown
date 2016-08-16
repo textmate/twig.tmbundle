@@ -16,9 +16,7 @@ Suggestions:
 #### Language Grammar
 
 * Grammar should have a shortcut of ⌃⌥⇧T
-* The first variable rule should be a match not a begin/end.
 * comment.line should be comment.block
-* There's no reason for variable.other to use a begin/end, should just be a match.
 * string.other should be string.quoted.(single|double).twig respectively.
 * The scope suffixes of twig.template.tag and twig.template aren't needed as you can use scopes to determine where a scope is located. .twig alone should suffice.
 * Template Tags should be named meta.tag.template, this is a new standard we're introducing into all meta.tag and html template languages. See <http://pastie.textmate.org/private/ghcjf0b86u2qheoghfuw>

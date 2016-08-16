@@ -118,18 +118,26 @@
 		<dict>
 			<key>begin</key>
 			<string>{%</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
-				<key>1</key>
+				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.twig.tagbraces</string>
+					<string>punctuation.definition.tag.begin.twig</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>%}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.end.twig</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>meta.scope.twig.template.tag</string>
+			<string>meta.tag.template.twig</string>
 			<key>patterns</key>
 			<array>
 				<dict>

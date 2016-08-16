@@ -10,6 +10,8 @@
 	<string>{% (block|if|else|elseif|for)</string>
 	<key>foldingStopMarker</key>
 	<string>{% (endblock|endif|endfor|trigger|url) %}</string>
+	<key>keyEquivalent</key>
+	<string>^~T</string>
 	<key>name</key>
 	<string>HTML (Twig)</string>
 	<key>patterns</key>

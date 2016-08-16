@@ -26,7 +26,7 @@
 			<key>end</key>
 			<string>#}</string>
 			<key>name</key>
-			<string>comment.line.twig</string>
+			<string>comment.block.twig</string>
 		</dict>
 		<dict>
 			<key>match</key>
